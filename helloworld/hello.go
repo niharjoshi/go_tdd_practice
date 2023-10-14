@@ -1,7 +1,5 @@
 package helloworld
 
-import "fmt"
-
 const helloPrefixEnglish = "Hello, "
 const spanish = "Spanish"
 const helloPrefixSpanish = "Hola, "
@@ -26,8 +24,4 @@ func greetingPrefix(language string) (prefix string) {
 		prefix = helloPrefixFrench
 	}
 	return
-}
-
-func main() {
-	fmt.Println(Hello("Nihar", ""))
 }
